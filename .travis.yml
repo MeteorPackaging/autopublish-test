@@ -1,0 +1,9 @@
+before_deploy: "curl https://install.meteor.com/ | sh"
+deploy:
+  provider: releases
+  skip_cleanup: true
+  on:
+    tags: true
+    all_branches: true
+after_deploy:
+  - ./meteor/publish.sh
