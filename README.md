@@ -1,6 +1,5 @@
-<img src="https://travis-ci.org/MeteorPackaging/autopublish-test.svg" data-bindattr-191="191" title="Build Status Images">
-[![Build Status](https://travis-ci.org/MeteorPackaging/autopublish-test.svg?branch=master)](https://travis-ci.org/MeteorPackaging/autopublish-test
-  )
+Status](https://travis-ci.org/MeteorPackaging/autopublish-test.svg?branch=master)](https://travis-ci.org/MeteorPackaging/autopublish-test)
+
 autopublish-test
 ================
 
