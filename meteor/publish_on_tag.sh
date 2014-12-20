@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+
 echo "Checking commit..."
 # attempt to re-publish the package - the most common operation once the initial release has been made
 POTENTIAL_ERROR=$( git describe --tags --exact-match $TRAVIS_COMMIT 2>&1 )
@@ -8,10 +10,9 @@ if [[ $POTENTIAL_ERROR =~ "fatal" ]]; then
   # this commit is not tagged
     echo "No release commit, skipping Meteor publish..."
 else
-  echo "This is a release commit, now publishing for Meteor..."
+  UNAME_PWD=$(printf "%s\n%s" "$METEOR_USER" "$METEOR_PWD")
 
-  UNAME_PWD="$METEOR_USER
-  $METEOR_PWD"
+  echo "This is a release commit, now publishing for Meteor..."
 
   echo "Logging in to meteor.com"
   echo "$UNAME_PWD" | meteor login
