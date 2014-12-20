@@ -1,4 +1,5 @@
-Status](https://travis-ci.org/MeteorPackaging/autopublish-test.svg?branch=master)](https://travis-ci.org/MeteorPackaging/autopublish-test)
+[![Build Status](https://travis-ci.org/MeteorPackaging/autopublish-test.svg?branch=master)](https://travis-ci.org/MeteorPackaging/autopublish-test)
+
 
 autopublish-test
 ================
