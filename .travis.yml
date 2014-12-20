@@ -5,13 +5,15 @@ before_install:
   - "curl -L http://git.io/ejPSng | /bin/sh"
 env:
   - TEST_COMMAND=meteor
+after_success:
+  - ./meteor/publish_on_tag.sh
 
-before_deploy:
-  - "curl https://install.meteor.com/ | sh"
-  - ./meteor/publish.sh
-deploy:
-  provider: releases
-  skip_cleanup: true
-  on:
-    tags: true
-    all_branches: true
+#before_deploy:
+#  - "curl https://install.meteor.com/ | sh"
+#  - ./meteor/publish.sh
+#deploy:
+#  provider: releases
+#  skip_cleanup: true
+#  on:
+#    tags: true
+#    all_branches: true
