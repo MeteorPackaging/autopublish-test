@@ -1,6 +1,6 @@
 #!/bin/bash
 
-UNAME_PWD = "$METEOR_USER
+UNAME_PWD="$METEOR_USER
 $METEOR_PWD"
 
 echo "Logging in to meteor.com"
