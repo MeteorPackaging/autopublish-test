@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 echo "Checking commit..."
 # attempt to re-publish the package - the most common operation once the initial release has been made
 POTENTIAL_ERROR=$( git describe --tags --exact-match $TRAVIS_COMMIT 2>&1 )
