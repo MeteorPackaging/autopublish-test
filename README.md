@@ -4,7 +4,7 @@
 autopublish-test
 ================
 
-Dummy package to be used to test auto-publish with TravisCI
+Dummy package to be used to test auto-publishing with TravisCI.
 
-This is linked to the efforts the community is puttin in place to ease the
-[Official Meteor Integration of 3rd Party Libraries](https://github.com/MeteorCommunity/discussions/issues/14)
+Learn more about the community efforts towards
+[Official Meteor Integrations of 3rd Party Libraries](https://github.com/MeteorCommunity/discussions/issues/14).
