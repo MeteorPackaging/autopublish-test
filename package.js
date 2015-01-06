@@ -1,7 +1,7 @@
 Package.describe({
   name: 'packaging:autopublish-test',
   summary: 'Dummy package to test auto-publish with TravisCI. DO NOT USE!',
-  version: '0.0.10',
+  version: '0.0.11',
   git: 'https://github.com/MeteorPackaging/autopublish-test.git'
 });
 
