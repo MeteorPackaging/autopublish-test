@@ -1,0 +1,13 @@
+{
+  "name"        : "autopublish-test",
+  "version"     : "0.1.17",
+  "title"       : "autopublish",
+  "description" : "Dummy package to test auto-publish with TravisCI. DO NOT USE!",
+  "homepage"    : "http://autopublish.meteor.com",
+  "author"      : "Luca Mussi @splendido",
+  "license"     : "MIT",
+  "repository": {
+    "type" : "git",
+    "url"  : "git://github.com/MeteorPackaging/autopublish-test-sister.git"
+  }
+}
